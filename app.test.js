@@ -7,13 +7,13 @@ describe("#createInstructor", function () {
 
 describe("#InstructorSaysHi", function () {
     it("Return Hi", function () {
-        expect(sayHi()).toEqual('Hi!');
+        expect(instructorr.sayHi()).toEqual('Hi!');
     });
 });
 
 describe("#InstructorSaysBye", function () {
     it("Return Bye", function () {
-        expect(sayBye()).toEqual('Colt says bye!');
+        expect(instructorr.sayBye()).toEqual('Colt says bye!');
     });
 });
 
